@@ -1,0 +1,2 @@
+Exposing my API key for the assignment.
+API_KEY = '4SWVVKKXGLPFPMER4HY3GQVUG';
