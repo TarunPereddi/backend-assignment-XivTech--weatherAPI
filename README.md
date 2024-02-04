@@ -22,8 +22,7 @@ This repository contains the backend assignment for XivTech - a simple weather A
    npm install
    ```
 
-4. Replace the API_KEY in `index.js` file with your own API key from Visual Crossing. If you don't have an API key, you can use the one provided in the `api.txt` file.
-
+4. Replace the API_KEY in `index.js` file with your own API key from Visual Crossing.
 ## Usage
 
 1. Start the server:
@@ -47,3 +46,10 @@ The output will be similar to this:
 ```
 
 Please note that the temperatures are just examples and will vary based on the actual weather conditions.
+
+# Bonus Task: Weather App UI
+
+Create a simple UI app that enhances the user experience by accepting city names as input in a text box. The app should make a call to the API endpoint created and display the weather results in the UI.
+
+**Live Demo:** [Xiv Tech - Weather App](https://xiv-tech-assignment-weather-app.vercel.app/)
+
