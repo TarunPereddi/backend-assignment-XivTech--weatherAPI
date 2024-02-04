@@ -1,10 +1,13 @@
 const express = require('express');
 const axios = require('axios');
+const cors = require('cors');
 
 const API_KEY = process.env.WEATHER_API_KEY;;
 
 const app = express();
+app.use(cors());
 app.use(express.json());
+
 
 app.post('/getWeather', async (req, res) => {
   const cities = req.body.cities;
@@ -17,8 +20,9 @@ app.post('/getWeather', async (req, res) => {
   }
 
   res.json({ weather: weatherData });
+  console.log({ weather: weatherData })
 });
 
-app.listen(3000, ()=>{
+app.listen(3001, ()=>{
   console.log("Server Started")
 });
